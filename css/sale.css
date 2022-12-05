@@ -23,9 +23,6 @@
     cursor: pointer;
 }
 
-/* .characters li:hover .red-bumper{
-    height: 40px;
-} */
 
 .characters li h5{
     /* position: relative; */
@@ -57,14 +54,6 @@
 }
 
 
-/* .red-bumper{
-    position: absolute;
-    width: 100%;
-    height: 6px;
-    background-color: red;
-
-    transition: all 0.5s ease;
-} */
 
 article{
     padding: 20px;
