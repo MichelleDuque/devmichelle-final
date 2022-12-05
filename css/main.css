@@ -1,7 +1,3 @@
-/*
-Couples Resort Fixed-Width Build
-12 column grid as per XD file
- */
 
 /* ---Basic CSS Reset--- */
 
@@ -28,18 +24,6 @@ body {
     padding: 0;
  }
 
- /* 
-    CSS Guide 
-
-    1. General Styles
-    2. Grid
-    3. Header
-    4. Main Hero Image
-    5. Why Couples Resort
-    6. About & FAQ
-    7. Contact Form
-    8. Footer
- */
 
  /* 1. ---General Styles--- */
 
@@ -60,11 +44,6 @@ body {
 
 /* 2. ---Grid--- */
 
-    /*
-    this is our grid based off of our XD file 
-    1170px + 30px padding = 1200px
-    The XD file acts as our guide there is a 1:1 relationship
-    */
 .grid {
    padding-left: 15px;
    padding-right: 15px;
@@ -252,7 +231,7 @@ font-size: 20px;
    margin: 0 auto;
 }
 
-/* 5. ---Why Couples Resort--- */
+/* 5. ---Why Soccer--- */
 
 #why nav {
    height: 200px;
@@ -346,11 +325,6 @@ font-size: 20px;
 
 /* 6. ---About & FAQ--- */
 
-
-/* #world-cup {
-   grid-column: 2/7;
-   align-self: end;
-} */
 
 #about-text {
    margin-bottom: 80px;
