@@ -81,6 +81,7 @@ body {
    background-color: #25316D;
    top:0px;
    height: 100px;
+   z-index: 1
 }
 
 .logo {
@@ -287,31 +288,6 @@ font-size: 20px;
    border-bottom: 10px solid #9a2018;
 }
 
-/* #box-options{
-	display: grid;
-}
-
-#why-options {
-   width: 1640px;
-   height: 507px;
-   gap: 50px;
-   background-color: black;
-   place-self: center;
-}
-
-#why-options .why-us-img {
-   grid-column: span 3;
-}
-
-.categories-photos {
-	width: 536,5;
-	height: 242px;
-}
-
-.why-us-img a:hover {
-   padding-bottom: 5px;
-   border-bottom: solid 2px #9a2018;
-}  */
 
 #why-options {
 	grid-row-gap: 30px;
@@ -319,9 +295,6 @@ font-size: 20px;
 	
  }
  
- /* #why-options .why-us-img {
- } */
-
 #img1{
 	grid-column: 2/5;
  }
