@@ -188,37 +188,24 @@ font-size: 20px;
    font-family: 'Roboto', sans-serif;
 }
 
-.box-buttons-categories{
-	position: relative;
-	margin-top: 100px;
-}
-
 .buttons-categories{
 	background-color: #97D2EC;
 	color:#06113C;
 	font-size: 50px;
 	font-weight: bold;
 	justify-content: center;
-	align-items: center;
 	padding: 0px;
 	width: 223px;
 	height: 83px;
+   margin-left: 80px;
+   margin-top: -140px;
 	font-family: 'Roboto', sans-serif;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
+.box-buttons-categories{
+	margin-top: 100px;
+}
 
-/* .title-line{
-   grid-column: 2/12;
-   width: 100%;
-   border: none;
-   border-top: 3px solid #cf6666;
-   margin-top: 40px;
-   margin-bottom: 40px;
-} */
 
 #hero-welcome{
    padding-bottom: 60px;
