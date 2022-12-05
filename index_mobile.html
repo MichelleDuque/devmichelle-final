@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- HTML Comment -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Back Of The Net</title>
+<link href="css/main_mobile.css" rel="stylesheet" type="text/css" media="screen">         
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+    <header id="main-header" class="grid">
+        <h1 class="hidden">Back Of The Net</h1> 
+            <div class="logo">
+            <img src="images/logo.svg" alt="Back Of The Net Logo">
+            </div>
+            <div class="menu-hamburguer">
+                <i class='fa fa-bars'></i>
+            </div>
+        </header>
+    <br>
+
+    <main id="content" class="main">
+
+        <section id="about-text" class="grid">
+            <h2 class="hero-img-h2-about"><u>FIFA World Cup Qatar 2022</u></h2>
+            <p>Buy everything for the 2022 World Cup. Also available for worldwide shipping: Find the official national team shirt of every team, their flag, scarves, and signed kits.</p>  
+         </section> 
+
+
+
+    <section id="why">
+        <h3 class="hero-img-h3">CATEGORIES</h3>
+
+        <div id="why-options" class="grid">
+            <!-- Start 1 -->
+            <section class="why-us-img" id="img1">
+                <img src="images/men-soccer.jpg" alt="couple sitting in hot tub">
+            </section>
+            <!-- End 1 -->
+        </div>
+    </section>  
+
+    <section>
+        <h3 class="hero-img-h3">EUROPEAN CLUBS</h3>
+        <section class="grid" id="box-european-clubs">
+            <div id="about-text-group2">
+            <h4 class="hero-img-h4"><u>Which league in the world is the best?</u></h4>
+            <p>Based on national pride and <br> the aesthetics of the game in <br> each country, this topic may <br> start a discussion that will <br> never come to a conclusion. </p>
+            <p> But here in Back of The Net, <br> you can find all you need to <br> support your favorite team.</p> 
+            <p> Premier League? La Liga? <br> Bundesliga? Serie A? Ligue <br> 1? I doesn't matter you will <br> find it all.</p>
+            </div>
+        </section>
+        <section class="grid" id="box-european-clubs-photos">
+            <div class="photos-european-clubs">
+                <img src="images/manchester-city.png" alt="Manchester City Jersey" id="city">
+                <img src="images/psg.png" alt="PSG Cap" id="psg">
+                <img src="images/real-madrid.png" alt="Real Madrid Cap" id="madrid">
+                <img src="images/borussia-dortmund.png" alt="Borussia Dortmund Cake" id="dortmund">
+            </div>
+        </section>
+</section>
+
+    <section id="contact_form" class="grid">
+        <div id="text-contact">
+        <h3>FEEL FREE TO CONTACT US</h3>
+        <p>Although we make every <br> effort to complete orders <br> swiftly, deliveries <br>
+            occasionally exceed <br> expectations owing to <br> shipping carrier delays. <br>
+            if you have any <br> questions, please feel free <br> to contact us.</p>
+        </div>
+        <form action="register.php" id="mainform" method="post">
+            <label for="first_name" class="hidden">First Name: </label>
+            <input type="text" id="first_name" name="first_name" placeholder="First Name">
+            <label for="last_name" class="hidden">Last Name: </label>
+            <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+            <label for="email" class="hidden">Email Address: </label>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <label for="comments" class="hidden">Your comments: </label>
+            <textarea name="comments" id="comments">Type your message here</textarea>
+            <button class="button-web" id="button-send">SEND</button>
+        </form>
+    </section>
+    </main>
+
+    <footer class="grid">
+        <form action="register.php" id="mainform-newsletter" method="post">
+            <h3>Newsletter Sign-Up</h3>
+            <label for="email" class="hidden">Email Address: </label>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <button class="button-web" id="button-footer">SUBSCRIBE</button>
+        </form>
+    </footer>
+    </div>
+</body>
+</html>
